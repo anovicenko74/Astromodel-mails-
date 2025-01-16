@@ -5,9 +5,9 @@ import { paragraph } from "../styles";
 
 export const AstromodelPublicEventInfo = () => (
     <AstromodelBase previewText="Вы были зарегистрированы на мероприятие">
-        <Text style={paragraph}>Здравствуйте, %full_name%</Text>
+        <Text style={paragraph}>Здравствуйте, {"{{ full_name }}"}</Text>
         <Text style={paragraph}>
-            Вы были зарегистрированы на мероприятие %public_event_name%
+            Вы были зарегистрированы на мероприятие {"{{ public_event_name }}"}
         </Text>
         <Img
             alt="Ode Grinder"
@@ -20,9 +20,11 @@ export const AstromodelPublicEventInfo = () => (
             }}
         />
         <Text style={paragraph}>
-            Дата: %public_event_date% <br />
-            Место: %public_event_place% <br />
-            Количество гостей: %guests_count% <br />
+            Дата: {"{{ public_event_date }}"} <br />
+            Место: {"{{ public_event_place }}"}
+            <br />
+            Количество гостей: {"{{ guests_count }}"}
+            <br />
         </Text>
         <Text style={paragraph}>
             Ждем с нетерпением! Не удаляйте письмо до посещения

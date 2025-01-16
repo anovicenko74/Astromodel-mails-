@@ -9,7 +9,7 @@ export const AstromodelPasswordRequest = () => (
             Запрошен сброс пароля для вашего аккаунта <br /> Нажмите для
             подтверждения
         </Text>
-        <Button href="#" style={button}>
+        <Button href="{{url}}" style={button}>
             Сбросить
         </Button>
         <Text style={paragraph}>

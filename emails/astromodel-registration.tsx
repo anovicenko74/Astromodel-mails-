@@ -9,7 +9,7 @@ export const AstromodelRegistrationLink = () => (
             Ваша почта была указана при регистрации на нашем ресурсе <br />
             Нажмите для подтверждения
         </Text>
-        <Button href="#" style={button}>
+        <Button href="{{url}}" style={button}>
             Подтвердить
         </Button>
         <Text style={paragraph}>
