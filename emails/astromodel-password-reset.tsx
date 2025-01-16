@@ -4,7 +4,7 @@ import AstromodelBase from "./astromodel-base";
 import { button, paragraph } from "../styles";
 
 export const AstromodelPasswordRequest = () => (
-    <AstromodelBase>
+    <AstromodelBase previewText="Запрошен сброс пароля для вашего аккаунта">
         <Text style={paragraph}>
             Запрошен сброс пароля для вашего аккаунта <br /> Нажмите для
             подтверждения

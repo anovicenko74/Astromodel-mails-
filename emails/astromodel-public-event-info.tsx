@@ -4,7 +4,7 @@ import AstromodelBase from "./astromodel-base";
 import { paragraph } from "../styles";
 
 export const AstromodelPublicEventInfo = () => (
-    <AstromodelBase>
+    <AstromodelBase previewText="Вы были зарегистрированы на мероприятие">
         <Text style={paragraph}>Здравствуйте, %full_name%</Text>
         <Text style={paragraph}>
             Вы были зарегистрированы на мероприятие %public_event_name%

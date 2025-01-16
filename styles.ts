@@ -1,7 +1,6 @@
 export const main = {
     backgroundColor: "#f6f9fc",
-    fontFamily:
-        '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
+    fontFamily: "-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,sans-serif",
 };
 export const container = {
     backgroundColor: "#ffffff",

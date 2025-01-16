@@ -17,12 +17,16 @@ import { main, container, box, hr, footer } from "../styles";
 
 const baseUrl = "https://admin.astromodel.ru";
 
-export const AstromodelBase = ({ children }: { children: ReactNode }) => (
+export const AstromodelBase = ({
+    children,
+    previewText,
+}: {
+    children: ReactNode;
+    previewText: string;
+}) => (
     <Html>
         <Head />
-        <Preview>
-            You're now ready to make live transactions with Stripe!
-        </Preview>
+        <Preview>{previewText}</Preview>
         <Body style={main}>
             <Container style={container}>
                 <Section style={box}>

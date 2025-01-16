@@ -4,7 +4,7 @@ import AstromodelBase from "./astromodel-base";
 import { button, paragraph } from "../styles";
 
 export const AstromodelRegistrationLink = () => (
-    <AstromodelBase>
+    <AstromodelBase previewText="Ваша почта была указана при регистрации на нашем ресурсе">
         <Text style={paragraph}>
             Ваша почта была указана при регистрации на нашем ресурсе <br />
             Нажмите для подтверждения

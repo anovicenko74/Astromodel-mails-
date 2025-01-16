@@ -15,7 +15,7 @@ import AstromodelBase from "./astromodel-base";
 import { codeContainer, codeStyle, paragraph } from "../styles";
 
 export const AstromodelPublicEventOtp = () => (
-    <AstromodelBase>
+    <AstromodelBase previewText="Вы подали заявку на участие в мероприятии">
         <Text style={paragraph}>Здравствуйте, %full_name%</Text>
         <Text style={paragraph}>
             Вы подали заявку на участие в мероприятии %public_event_name% <br />{" "}
